@@ -383,4 +383,29 @@ const Students = [
     console.log(`Hi ${name}, Excellent and good of you, you scored above 6marks.`)
  })
 
- 
+// ARRAY SOME AND EVERY
+
+const box = [1, 2, 3, 4, 5, 6, 7]
+
+//Some checks if some of the properties in an array meets a particular
+//condition
+console.log(box.some((el)=> {return el > 4}))
+
+
+// Every checks if all of the properties in an array
+//meets a particula condition
+console.log(box.every((el)=> {return el > 4}))
+
+
+// ARRAY REDUCE
+
+// loops through the array and return the sum of the array.
+//it takes two parameters which are accumulator
+// and value. the call back function take two parameters which are accumulator and value,
+
+const boxs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const answer = boxs.reduce((accumulator, value) =>{
+    return accumulator + value
+ }, 0)
+ console.log(answer)
