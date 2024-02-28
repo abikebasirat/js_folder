@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menuItem{
+            background-color: brown;
+            color: #fff;
+        }
+
+        .menuItem.active{
+            background-color: blue;
+            color: black;
+        }
+
+        h2{
+            font-size: 60px;
+            color: gold;
+        }
+        
+
+    </style>
+</head>
+<body>
+ 
+ 
+
+    <ul>
+    <li onclick="menuClicked(this)" class="menuItem">menu1</li>
+    <li onclick="menuClicked(this)" class="active">menu2</li>
+    <li onclick="menuClicked(this)" class="menuItem">menu3</li>
+    <li onclick="menuClicked(this)" class="menuItem">menu4</li>
+    <li onclick="menuClicked(this)" class="menuItem">menu5</li>
+</ul>
+
+<h2></h2>
+    <script src="main.js"></script>
+
+</body>
+</html>
