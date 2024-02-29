@@ -8,7 +8,7 @@ const menuClicked = (curEl) => {
         anyThing[i].classList.remove('active')
     }
 
-    curEl.classList.add('active')
+    event.target.classList.add('active')
 
 } 
 
