@@ -269,6 +269,8 @@ console.log(square.area)
             }
         }
 
+        
+
         class Rabbit extends Animal{
             name = "Rabbit"
             run(){
